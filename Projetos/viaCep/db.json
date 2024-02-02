@@ -1,0 +1,26 @@
+{
+    "cep": [    
+    {
+        "id": 1,
+        "cep": "0010101",
+        "logradouro": "Rua Lápis",
+        "bairro": "Bairro de lá",
+        "localidade": "Cidade Grande",
+        "uf": "SP"
+
+    }
+    ],
+
+
+    "cep2": [    
+    {
+        "id": 1,
+        "cep": "0022321",
+        "logradouro": "Rua ódio",
+        "bairro": "Raiva da Sé",
+        "localidade": "A Revolta",
+        "uf": "JR"
+
+    }
+    ]
+}

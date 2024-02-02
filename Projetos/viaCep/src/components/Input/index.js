@@ -7,7 +7,7 @@ editable,
 fieldValue,
 onChangeText,
 keyType,
-maxLenght
+maxLength
 }) =>{
 
     return(
@@ -17,7 +17,7 @@ maxLenght
        keyboardType = {keyType}
        value = {fieldValue}
        onChangeText = {onChangeText}
-       maxLenght = {maxLenght}
+       maxLength = {maxLength}
        
        />
     )

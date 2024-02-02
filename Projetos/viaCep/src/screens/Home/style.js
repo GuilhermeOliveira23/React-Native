@@ -12,5 +12,6 @@ gap:20px;
 `
 
 export const ContainerBox = styled.View`
-
+flex-direction:row;
+gap: 20px;
 `
