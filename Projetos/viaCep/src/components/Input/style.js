@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const InputText = styled.TextInput`
 border: 2px solid #A1A1A1;
+background-color: #F6F6F6;
 text-align: left;
 padding:20px;
 margin-top:10px;
@@ -13,7 +14,7 @@ font-size:18px;
 
 ${props => props.editable && css`
 
-background-color: #F6F6F6;
+background-color: white;
 `
 }
 `

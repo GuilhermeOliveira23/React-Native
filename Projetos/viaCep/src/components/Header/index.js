@@ -6,7 +6,7 @@ export function Header(){
         <HeaderContainer>
             <HeaderContent>
             <TextHeader>
-                Consumo da API ViaCep
+                Consulta do CEP
             </TextHeader>
             </HeaderContent>
         </HeaderContainer>

@@ -10,6 +10,7 @@ export default function App() {
     Roboto_700Bold
   });
 
+
   if (!fontsLoaded && fontError) {
     return null
   }
