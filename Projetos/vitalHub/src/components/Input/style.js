@@ -10,5 +10,6 @@ border-radius:5px;
 width:90%;
 font-family: 'Roboto_500Medium';
 font-size:16px;
-height:53px;
+height:60px;
+font-family: 'MontserratAlternates_600SemiBold';
 `

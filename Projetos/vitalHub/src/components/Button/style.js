@@ -1,17 +1,12 @@
 import styled from "styled-components"
 
 export const Button = styled.TouchableOpacity`
-width: 80%;
+width: 90%;
 height: 60px;
-background-color: blue;
-
-`
-export const btnText = styled.Text`
-
-
-
+background-color: #496BBA;
+justify-content: center;
+align-items:center;
+border-radius: 5px;
+border: 1px solid #496BBA; 
 `
 
-export const ButtonGoogle = styled(Button)`
-
-`

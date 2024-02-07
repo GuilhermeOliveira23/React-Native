@@ -6,6 +6,9 @@ export const Navegacao  = ({navigation}) =>{
             <Button title= "Login"
             onPress = {() => navigation.navigate("LoginPage")}
             />
+            <Button title= "Esqueci a senha"
+            onPress = {() => navigation.navigate("EsqueciSenha")}
+            />
         </View>
     )
 

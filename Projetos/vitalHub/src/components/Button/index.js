@@ -1,6 +1,6 @@
 import { Button } from "./style"
 
-export function Button({
+export function Buttons({
    onPress
 
 
@@ -8,8 +8,10 @@ export function Button({
 
 return(
 
-   <>
-   </>
+   <Button
+    onPress={onPress}>
+
+   </Button>
 )
 
 

@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { MontserratAlternates_600SemiBold, MontserratAlternates_700Bold, useFonts } from '@expo-google-fonts/montserrat-alternates';
+import { MontserratAlternates_600SemiBold, MontserratAlternates_700Bold, MontserratAlternates_500Medium, useFonts } from '@expo-google-fonts/montserrat-alternates';
 import { Quicksand_500Medium } from '@expo-google-fonts/quicksand';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { Navegacao } from './src/screens/Navegacao/Navegacao';
 import { LoginPage } from './src/screens/LoginPage';
+import { EsqueciSenha } from './src/screens/EsqueciSenha';
 
 
 const Stack = createNativeStackNavigator();
@@ -15,7 +16,8 @@ export default function App() {
   const[fontsLoaded,fontError] = useFonts({
     MontserratAlternates_600SemiBold,
     MontserratAlternates_700Bold,
-    Quicksand_500Medium
+    Quicksand_500Medium,
+    MontserratAlternates_500Medium
 
   });
 
@@ -47,6 +49,12 @@ export default function App() {
       name='LoginPage'
       component={LoginPage}
       options={{title: "Login"}}
+      
+      />
+      <Stack.Screen
+      name='EsqueciSenha'
+      component={EsqueciSenha}
+      options={{title: "Recuperara senha"}}
       
       />
       
