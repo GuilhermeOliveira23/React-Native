@@ -9,7 +9,7 @@ height: 60px;
 justify-content: space-evenly;
 align-items:center;
 border-radius: 5px;
-margin-top: 30px;
+
 flex-direction:row;
-margin-bottom: 30px
+
 `

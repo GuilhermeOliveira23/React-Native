@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-
-export const HeaderContainer = styled.View`
+import { LinearGradient } from 'expo-linear-gradient';
+export const ContainerBox = styled.SafeAreaView`
 background-color: #FECC2B;
 height: 20%;
 justify-content: center;
@@ -16,7 +16,5 @@ margin-top: 30px;
 
 `
 export const TextHeader = styled.Text`
-font-size: 24;
-color: '#333E33';
-font-family: 'Roboto_500Medium';
+color:black;
 `

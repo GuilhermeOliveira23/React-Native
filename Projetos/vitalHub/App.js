@@ -1,13 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { MontserratAlternates_600SemiBold, MontserratAlternates_700Bold, MontserratAlternates_500Medium, useFonts } from '@expo-google-fonts/montserrat-alternates';
-import { Quicksand_500Medium } from '@expo-google-fonts/quicksand';
+import { Quicksand_500Medium, Quicksand_600SemiBold } from '@expo-google-fonts/quicksand';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import { Navegacao } from './src/screens/Navegacao/Navegacao';
 import { LoginPage } from './src/screens/LoginPage';
 import { EsqueciSenha } from './src/screens/EsqueciSenha';
-
+import { VerificarEmail } from './src/screens/VerificarEmail';
+import { RedefinirSenha } from './src/screens/RedefinirSenha';
+import { CriarConta } from './src/screens/CriarConta';
+import { ConsultaMedico } from './src/screens/ConsultaMedico';
+import { Header } from './src/components/Header';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +21,8 @@ export default function App() {
     MontserratAlternates_600SemiBold,
     MontserratAlternates_700Bold,
     Quicksand_500Medium,
-    MontserratAlternates_500Medium
+    MontserratAlternates_500Medium,
+    Quicksand_600SemiBold
 
   });
 
@@ -35,6 +40,7 @@ export default function App() {
          {/* component: componente a ser chamado */}
          {/* option(title): titulo da tela */}
 
+      
     <NavigationContainer>
 
       <Stack.Navigator>
@@ -55,6 +61,30 @@ export default function App() {
       name='EsqueciSenha'
       component={EsqueciSenha}
       options={{title: "Recuperara senha"}}
+      
+      />
+      <Stack.Screen
+      name='VerificarEmail'
+      component={VerificarEmail}
+      options={{title: "Verifique o seu Email"}}
+      
+      />
+      <Stack.Screen
+      name='CriarConta'
+      component={CriarConta}
+      options={{title: "Crie a sua conta"}}
+      
+      />
+      <Stack.Screen
+      name='RedefinirSenha'
+      component={RedefinirSenha}
+      options={{title: "Redefina a sua senha"}}
+      
+      />
+      <Stack.Screen
+      name='ConsultaMedico'
+      component={ConsultaMedico}
+      options={{title: "Redefina a sua senha"}}
       
       />
       

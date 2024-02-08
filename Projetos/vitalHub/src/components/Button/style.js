@@ -7,6 +7,7 @@ background-color: #496BBA;
 justify-content: center;
 align-items:center;
 border-radius: 5px;
-border: 1px solid #496BBA; 
+border: 1px solid #496BBA;
+margin-top: 20px;
 `
 

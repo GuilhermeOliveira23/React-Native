@@ -10,8 +10,10 @@ font-size: 14px;
 color: gray;
 `
 export const Descricao = styled.Text`
+margin-top: 20px;
 font-size:16px;
 color:gray;
 font-family: "Quicksand_500Medium";
-
+text-align:center;
+margin-bottom: 20px;
 `

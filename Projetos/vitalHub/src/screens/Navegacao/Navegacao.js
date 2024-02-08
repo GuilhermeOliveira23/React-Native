@@ -9,6 +9,18 @@ export const Navegacao  = ({navigation}) =>{
             <Button title= "Esqueci a senha"
             onPress = {() => navigation.navigate("EsqueciSenha")}
             />
+            <Button title= "Verifique o seu Email"
+            onPress = {() => navigation.navigate("VerificarEmail")}
+            />
+            <Button title= "Redefina sua senha"
+            onPress = {() => navigation.navigate("RedefinirSenha")}
+            />
+            <Button title= "Crie uma conta"
+            onPress = {() => navigation.navigate("CriarConta")}
+            />
+            <Button title= "Página de consulta médico"
+            onPress = {() => navigation.navigate("ConsultaMedico")}
+            />
         </View>
     )
 
