@@ -5,6 +5,7 @@ import { Input } from "../Input"
 
 export const BoxInput = ({
      fieldWidth=100,
+     fieldHeight = 90,
      editable = false,
      textLabel,
      placeholder,
@@ -17,7 +18,10 @@ export const BoxInput = ({
 
 
     return(
-        <FieldContent fieldWidth = {fieldWidth}>
+        <FieldContent 
+        fieldWidth = {fieldWidth}
+        fieldHeight = {fieldHeight}
+        >
 
         <Label textLabel={textLabel}/>
 

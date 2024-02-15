@@ -11,3 +11,12 @@ width: 20px;
 height: 20px;
 
 `
+
+export const PerfilImg = styled.Image.attrs({ 
+  resizeMode: "stretch" 
+})
+`
+width: 100%;
+height:30%;
+
+`

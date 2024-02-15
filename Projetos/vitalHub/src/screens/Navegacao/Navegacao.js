@@ -18,6 +18,9 @@ export const Navegacao  = ({navigation}) =>{
             <Button title= "Crie uma conta"
             onPress = {() => navigation.navigate("CriarConta")}
             />
+            <Button title= "Crie o seu perfil"
+            onPress = {() => navigation.navigate("Perfil")}
+            />
             <Button title= "Página de consulta médico"
             onPress = {() => navigation.navigate("ConsultaMedico")}
             />

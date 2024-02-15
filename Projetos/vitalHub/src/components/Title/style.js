@@ -17,3 +17,7 @@ font-family: "Quicksand_500Medium";
 text-align:center;
 margin-bottom: 20px;
 `
+
+export const DescricaoPerfil = styled(Descricao)`
+font-family: 'Quicksand_600SemiBold';
+`

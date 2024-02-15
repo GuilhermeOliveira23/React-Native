@@ -7,7 +7,8 @@ export const Input = ({
     fieldValue,
     onChangeText,
     keyType,
-    maxLength
+    maxLength,
+    fieldHeight
     }) =>{
     
         return(
@@ -19,7 +20,8 @@ export const Input = ({
            onChangeText = {onChangeText}
            maxLength = {maxLength}
            placeholderTextColor = {placeholderTextColor}
-           
+           fieldHeight = {fieldHeight}
+         
            />
         )
     

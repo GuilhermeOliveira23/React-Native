@@ -12,6 +12,7 @@ import { RedefinirSenha } from './src/screens/RedefinirSenha';
 import { CriarConta } from './src/screens/CriarConta';
 import { ConsultaMedico } from './src/screens/ConsultaMedico';
 import { Header } from './src/components/Header';
+import { Perfil } from './src/screens/Perfil';
 
 const Stack = createNativeStackNavigator();
 
@@ -79,6 +80,12 @@ export default function App() {
       name='RedefinirSenha'
       component={RedefinirSenha}
       options={{title: "Redefina a sua senha"}}
+      
+      />
+      <Stack.Screen
+      name='Perfil'
+      component={Perfil}
+      options={{title: "Crie o seu perfil"}}
       
       />
       <Stack.Screen
