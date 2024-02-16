@@ -1,20 +1,30 @@
 import styled from 'styled-components'
-import { LinearGradient } from 'expo-linear-gradient';
-export const ContainerBox = styled.SafeAreaView`
-background-color: #FECC2B;
-height: 20%;
-justify-content: center;
+
+
+export const BoxUser = styled.View`
 flex-direction: row;
 align-items:center;
-border-radius:0px 0px 15px 15px;
-elevation: 30;
-`
-
-
-export const HeaderContent = styled.SafeAreaView`
-margin-top: 30px;
 
 `
-export const TextHeader = styled.Text`
-color:black;
+export const ImageUser = styled.Image`
+width: 60px;
+height: 60px;
+
+`
+export const DataUser = styled.View`
+
+width:150px;
+
+`
+
+export const TextDefault = styled.Text`
+font-size: 16px;
+font-family: "Quicksand_500Medium";
+
+`
+
+export const NameUser = styled.Text`
+color: #fbfbfb;
+font-family: "MontserratAlternates_600SemiBold";
+font-size: 16px;
 `

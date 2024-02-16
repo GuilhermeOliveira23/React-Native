@@ -1,13 +1,13 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const FieldContent = styled.View`
-width: ${props => `${props.fieldWidth}%`};
+export const BoxInput = styled.View`
 
-height: ${props => `${props.fieldHeight}px`};
-`
+width:${props => `${props.fieldWidth}%`};
+height:${props => `${props.fieldHeight}px`};
+align-items: center;
 
+gap: 8px;
 
-export const ContainerBox = styled.View`
-align-items: row;
+margin-top:15px;
 
 `

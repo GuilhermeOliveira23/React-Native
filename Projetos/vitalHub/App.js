@@ -13,6 +13,7 @@ import { CriarConta } from './src/screens/CriarConta';
 import { ConsultaMedico } from './src/screens/ConsultaMedico';
 import { Header } from './src/components/Header';
 import { Perfil } from './src/screens/Perfil';
+import { Home } from './src/screens/Home/Home';
 
 const Stack = createNativeStackNavigator();
 
@@ -92,6 +93,12 @@ export default function App() {
       name='ConsultaMedico'
       component={ConsultaMedico}
       options={{title: "Redefina a sua senha"}}
+      
+      />
+      <Stack.Screen
+      name='Home'
+      component={Home}
+      options={{title: "Home"}}
       
       />
       

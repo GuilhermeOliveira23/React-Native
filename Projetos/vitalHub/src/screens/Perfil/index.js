@@ -1,8 +1,7 @@
-import { BoxInput } from "../../components/BoxInput";
+import { HighInputBox, LargeInputTextBox } from "../../components/BoxInput/style";
 import { Container } from "../../components/Container/style";
-
 import { PerfilImg } from "../../components/Logo/style";
-import { Descricao, DescricaoPerfil, Title } from "../../components/Title/style";
+import { Descricao, Title } from "../../components/Title/style";
 
 export function Perfil() {
 
@@ -17,33 +16,30 @@ export function Perfil() {
             <Title>Richard Kosta</Title>
             <Descricao>22 anos      richard.kosta@gmail.com</Descricao>
 
-            <BoxInput
-                textLabel='Informar CEP'
-                placeholder='Cep...'
-                keyType='numeric'
-                maxLength={8}
-                editable={true}
-                fieldHeight={60}
+        
 
-            />
+                {/* <HighInputBox
+                    fieldHeight={350}
+                    placeholderTextColor={"#34898F"}
+                    textLabel={"Descrição da consulta"}
+                    placeholder={"Descrição"}
+                    editable={true}
+                /> */}
 
-            <BoxInput
-                textLabel='Informar CEP'
-                placeholder='Cep...'
-                keyType='numeric'
-                maxLength={8}
-                editable={true}
-                fieldHeight={30}
+                <LargeInputTextBox
+                    placeholderTextColor={"#34898F"}
+                    textLabel={"Diagnóstico do paciente"}
+                    placeholder={"Diagnóstico"}
+                    editable={true}
+                />
 
-            />
-            <BoxInput
-                textLabel='Informar CEP'
-                placeholder='Cep...'
-                keyType='numeric'
-                maxLength={8}
-                editable={true}
-
-            />
+                {/* <HighInputBox
+                    fieldHeight={350}
+                    placeholderTextColor={"#34898F"}
+                    textLabel={"Prescrição médica"}
+                    placeholder={"Prescriçao médica"}
+                    editable={true}
+                /> */}
 
 
 
