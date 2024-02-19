@@ -17,6 +17,6 @@ export const PerfilImg = styled.Image.attrs({
 })
 `
 width: 100%;
-height:30%;
+height:50%;
 
 `

@@ -1,13 +1,15 @@
-import { HighInputBox, LargeInputTextBox } from "../../components/BoxInput/style";
+import { HighInputBox, InputBox } from "../../components/BoxInput/index";
+import { BoxInput } from "../../components/BoxInput/style";
 import { Container } from "../../components/Container/style";
 import { PerfilImg } from "../../components/Logo/style";
 import { Descricao, Title } from "../../components/Title/style";
+import { ScrollForm, ContainerPerfil } from "./style";
 
 export function Perfil() {
 
     return (
-
-        <Container>
+        <ScrollForm>
+        <ContainerPerfil>
 
             <PerfilImg
                 source={require('../../assets/perfil.png')}
@@ -18,34 +20,29 @@ export function Perfil() {
 
         
 
-                {/* <HighInputBox
+                <HighInputBox
                     fieldHeight={350}
                     placeholderTextColor={"#34898F"}
                     textLabel={"Descrição da consulta"}
                     placeholder={"Descrição"}
                     editable={true}
-                /> */}
-
-                <LargeInputTextBox
-                    placeholderTextColor={"#34898F"}
-                    textLabel={"Diagnóstico do paciente"}
-                    placeholder={"Diagnóstico"}
-                    editable={true}
                 />
 
-                {/* <HighInputBox
+               
+
+                <HighInputBox
                     fieldHeight={350}
                     placeholderTextColor={"#34898F"}
                     textLabel={"Prescrição médica"}
                     placeholder={"Prescriçao médica"}
                     editable={true}
-                /> */}
+                />
 
 
 
-        </Container>
+        </ContainerPerfil>
 
-
+        </ScrollForm>
     )
 
 

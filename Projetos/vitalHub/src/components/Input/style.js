@@ -41,6 +41,7 @@ export const InputHigh = styled(InputText)`
     padding-bottom: 82px;
     height: 125px;
     width: 90%;
+    margin-left:3.5%;
 `
 
 export const InputTextLarge = styled(InputText)`
