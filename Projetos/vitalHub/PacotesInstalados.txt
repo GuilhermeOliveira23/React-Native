@@ -1,0 +1,10 @@
+npm i @react-navigation/native-stack
+npm i @react-navigation/native
+npm i styled-components
+npx expo install expo-linear-gradient
+npm i @expo-google-fonts/montserrat
+npm i @expo-google-fonts/quicksand
+npm i @expo-google-fonts/montserrat-alternates
+npm install axios
+npm i moment
+npm i react-native-calendar-strip

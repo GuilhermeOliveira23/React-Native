@@ -1,33 +1,71 @@
-import { View,Button } from "react-native"
+import { Button, View } from "react-native"
 
-export const Navegacao  = ({navigation}) =>{
-    return(
-        <View >
-            <Button title= "Login"
-            onPress = {() => navigation.navigate("LoginPage")}
+export const Navegacao = ({ navigation }) => {
+    return (
+
+        <View style={{ marginTop: 40 }}>
+            <Button
+                title="Login"
+                onPress={() => navigation.navigate("Login")}
             />
-            <Button title= "Esqueci a senha"
-            onPress = {() => navigation.navigate("EsqueciSenha")}
+            <Button
+                title="ForgotPassword"
+                onPress={() => navigation.navigate("ForgotPassword")}
             />
-            <Button title= "Verifique o seu Email"
-            onPress = {() => navigation.navigate("VerificarEmail")}
+            <Button
+                title="CheckEmail"
+                onPress={() => navigation.navigate("CheckEmail")}
             />
-            <Button title= "Redefina sua senha"
-            onPress = {() => navigation.navigate("RedefinirSenha")}
+            <Button
+                title="RedefinePassword"
+                onPress={() => navigation.navigate("RedefinePassword")}
             />
-            <Button title= "Crie uma conta"
-            onPress = {() => navigation.navigate("CriarConta")}
+            <Button
+                title="CreateAccount"
+                onPress={() => navigation.navigate("CreateAccount")}
             />
-            <Button title= "Crie o seu perfil"
-            onPress = {() => navigation.navigate("Perfil")}
+            <Button
+                title="PatientProfile"
+                onPress={() => navigation.navigate("PatientProfile")}
             />
-            <Button title= "Página de consulta médico"
-            onPress = {() => navigation.navigate("ConsultaMedico")}
+            <Button
+                title="MedicalRecords"
+                onPress={() => navigation.navigate("MedicalRecords")}
             />
-            <Button title= "Página home"
-            onPress = {() => navigation.navigate("Home")}
+            <Button
+                title="DoctorConsultation"
+                onPress={() => navigation.navigate("DoctorConsultation")}
+            />
+
+            <Button
+                title="SelectDoctor"
+                onPress={() => navigation.navigate("SelectDoctor")}
+            />
+
+            <Button
+                title="SelectClinic"
+                onPress={() => navigation.navigate("SelectClinic")}
+            />
+
+            <Button
+                title="PatientConsultation"
+                onPress={() => navigation.navigate("PatientConsultation")}
+            />
+
+            <Button
+                title="SelectDate"
+                onPress={() => navigation.navigate("SelectDate")}
+            />
+            <Button
+                title="ConsultLocalization"
+                onPress={() => navigation.navigate("ConsultLocalization")}
+            />
+            <Button
+                title="ViewPrescription"
+                onPress={() => navigation.navigate("ViewPrescription")}
             />
         </View>
-    )
 
+
+    )
 }
