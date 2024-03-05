@@ -20,3 +20,18 @@ export const BarContent = styled.SafeAreaView`
     width: 40px;
     height: 60px;
 `
+
+// export const ContentIcon = styled.View.attrs({
+
+// focus: true
+
+// })`
+// align-items: center;
+// justify-content:center;
+// flex-direction: row;
+
+// gap: 5px;
+// border-radius: 18px;
+// padding: 9px 12px;
+// background-color: ${props => {props.tabBarActiveBackground}}
+// `

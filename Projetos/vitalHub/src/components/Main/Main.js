@@ -2,16 +2,13 @@ import { FontAwesome } from "@expo/vector-icons";
 import { FontAwesome5 } from "@expo/vector-icons";
 import { Text } from "react-native";
 import { BarContent, TextBar } from "./StyleMain";
-
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
 import { PatientProfile } from "../../screens/PatientProfile/PatientProfile";
-
 import { PatientConsultation } from "../../screens/PatientConsultation/PatientConsultation";
-
 import { NavigationContainer } from '@react-navigation/native';
 import { TextBarNormal } from "../Descriptions/Descriptions";
 
+import { ContentIcon } from "./StyleMain";
 
 const bottomTab = createBottomTabNavigator()
 
@@ -24,7 +21,7 @@ export const Main = ({ navigation }) => {
 
             screenOptions={({ route }) => ({
 
-                tabBarStyle: {  height: 60, paddingTop: 20, elevation: 20, },
+                tabBarStyle: {  height: 60, paddingTop: 20, elevation: 20,},
                 tabBarActiveBackgroundColor: "transparent",
                 tabBarShowLabel: false,
                 headerShown: false,

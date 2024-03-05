@@ -9,6 +9,8 @@ import { LinkAccount } from "../../components/Link/Link"
 import { ButtonGoogle, ButtonNormal } from "../../components/Button/Button"
 import { StatusBar } from "react-native"
 
+
+
 export const Login = ({navigation}) => {
     return (
 
